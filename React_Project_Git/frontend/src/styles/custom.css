@@ -1,0 +1,26 @@
+
+.footer {
+    background-color: #212529; /* Same as navbar bg-dark */
+    color: #ffffff;
+    border-top: 1px solid #343a40;
+    font-size: 0.95rem;
+  }
+  
+  .footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #ffc107; /* Matches Bootstrap’s navbar link hover */
+  }
+
+/* src/styles/custom.css */
+.container {
+  margin-top: 100px; /* Adjust this based on navbar height */
+}
+
+button {
+  margin-top: 20px;
+}

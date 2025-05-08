@@ -1,0 +1,81 @@
+ .auth-form-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-form-container h2 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .auth-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form-container input {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .auth-form-container button {
+    padding: 12px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .auth-form-container button:hover {
+    background-color: #0b5ed7;
+  }
+  
+  .auth-form-container p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .auth-form-container p a {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+ 
+  .signup-background {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/048/859/397/small/the-background-is-a-light-brown-and-black-gradient-with-small-textures-lined-up-like-snake-skin-photo.jpg'); /* Adjust path if needed */
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* min-height: 100vh; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login-background {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/048/859/397/small/the-background-is-a-light-brown-and-black-gradient-with-small-textures-lined-up-like-snake-skin-photo.jpg'); /* Adjust path if needed */
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* min-height: 100vh; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
